@@ -2,4 +2,4 @@
 
 Ximpo is a minimal Garmin watch face that I have built for my personal uses.
 
-![screenshot](screenshot.png){:height="397px" width="245px"}
+<img src="screenshot.png" width="245px" height="397px">
