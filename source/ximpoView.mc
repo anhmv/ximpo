@@ -31,39 +31,37 @@ class ximpoView extends WatchUi.WatchFace {
         view.setText(timeString);
 
         // Call the parent onUpdate function to redraw the layout
-        View.onUpdate(dc);
-        
-    	dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
+        View.onUpdate(dc); dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
         dc.drawLine(45, dc.getHeight() / 2 - 40, dc.getWidth() - 45, dc.getHeight() / 2 - 40);
-	    dc.drawLine(45, dc.getHeight() / 2 + 40, dc.getWidth() - 45, dc.getHeight() / 2 + 40);
+        dc.drawLine(45, dc.getHeight() / 2 + 40, dc.getWidth() - 45, dc.getHeight() / 2 + 40);
 
-		dc.drawLine(dc.getWidth() / 2, 40, dc.getWidth() / 2, dc.getHeight() / 2 - 40);
-		dc.drawLine(dc.getWidth() / 2, dc.getHeight() / 2 + 40, dc.getWidth() / 2, dc.getHeight() - 40); 
-		
-		// Battery
+        dc.drawLine(dc.getWidth() / 2, 40, dc.getWidth() / 2, dc.getHeight() / 2 - 40);
+        dc.drawLine(dc.getWidth() / 2, dc.getHeight() / 2 + 40, dc.getWidth() / 2, dc.getHeight() - 40);
+
+        // Battery
     	var battery = System.getSystemStats().battery;
-    	dc.drawText(dc.getWidth() / 2 + 15, dc.getHeight() / 2 + 65, Graphics.FONT_XTINY, "BATT", Graphics.TEXT_JUSTIFY_LEFT);		
-		dc.drawText(dc.getWidth() / 2 + 15, dc.getHeight() / 2 + 45, Graphics.FONT_XTINY, battery.format("%d")+"%", Graphics.TEXT_JUSTIFY_LEFT);
-		
-		
-		// Heart Rate
-    	var heartRate = retrieveHeartrateText();    	
-    	dc.drawText(dc.getWidth() / 2 - 15, dc.getHeight() / 2 + 65, Graphics.FONT_XTINY, "HR", Graphics.TEXT_JUSTIFY_RIGHT);		
-		dc.drawText(dc.getWidth() / 2 - 15, dc.getHeight() / 2 + 45, Graphics.FONT_XTINY, heartRate, Graphics.TEXT_JUSTIFY_RIGHT);
-    	
+    	dc.drawText(dc.getWidth() / 2 + 15, dc.getHeight() / 2 + 65, Graphics.FONT_XTINY, "BATT", Graphics.TEXT_JUSTIFY_LEFT);
+        dc.drawText(dc.getWidth() / 2 + 15, dc.getHeight() / 2 + 45, Graphics.FONT_XTINY, battery.format("%d")+"%", Graphics.TEXT_JUSTIFY_LEFT);
+
+
+        // Heart Rate
+    	var heartRate = retrieveHeartrateText();
+    	dc.drawText(dc.getWidth() / 2 - 15, dc.getHeight() / 2 + 65, Graphics.FONT_XTINY, "HR", Graphics.TEXT_JUSTIFY_RIGHT);
+        dc.drawText(dc.getWidth() / 2 - 15, dc.getHeight() / 2 + 45, Graphics.FONT_XTINY, heartRate, Graphics.TEXT_JUSTIFY_RIGHT);
+
     	// Step Count
-       	var stepCount = Mon.getInfo().steps.toString();		
-    	dc.drawText(dc.getWidth() / 2 - 15, 35, Graphics.FONT_XTINY, "STEPS", Graphics.TEXT_JUSTIFY_RIGHT);		
-		dc.drawText(dc.getWidth() / 2 - 15, 55, Graphics.FONT_XTINY, stepCount, Graphics.TEXT_JUSTIFY_RIGHT);
-		
-		// Date
-		var now = Time.now();
-		var currentDate = Date.info(now, Time.FORMAT_LONG);
-		
+       	var stepCount = Mon.getInfo().steps.toString();
+    	dc.drawText(dc.getWidth() / 2 - 15, 35, Graphics.FONT_XTINY, "STEPS", Graphics.TEXT_JUSTIFY_RIGHT);
+        dc.drawText(dc.getWidth() / 2 - 15, 55, Graphics.FONT_XTINY, stepCount, Graphics.TEXT_JUSTIFY_RIGHT);
+
+        // Date
+        var now = Time.now();
+        var currentDate = Date.info(now, Time.FORMAT_LONG);
+
        	var month = Lang.format("$1$", [currentDate.month]).toUpper();
        	var date = Lang.format("$1$", [currentDate.day.format("%02d")]).toUpper();
-    	dc.drawText(dc.getWidth() / 2 + 15, 35, Graphics.FONT_XTINY, month, Graphics.TEXT_JUSTIFY_LEFT);		
-		dc.drawText(dc.getWidth() / 2 + 15, 55, Graphics.FONT_XTINY, date, Graphics.TEXT_JUSTIFY_LEFT);
+    	dc.drawText(dc.getWidth() / 2 + 15, 35, Graphics.FONT_XTINY, month, Graphics.TEXT_JUSTIFY_LEFT);
+        dc.drawText(dc.getWidth() / 2 + 15, 55, Graphics.FONT_XTINY, date, Graphics.TEXT_JUSTIFY_LEFT);
 
     }
 
@@ -80,18 +78,18 @@ class ximpoView extends WatchUi.WatchFace {
     // Terminate any active timers and prepare for slow updates.
     function onEnterSleep() {
     }
-    
-       
+
+
     private function retrieveHeartrateText() {
     	var heartrateIterator = Mon.getHeartRateHistory(1, true);
 
-		if (heartrateIterator != null) {
-			var hrs = heartrateIterator.next();
-			if(hrs != null && hrs.heartRate != null && hrs.heartRate != Mon.INVALID_HR_SAMPLE) {
-				return hrs.heartRate.format("%d");
-			}
-		}
-		
-		return "--";
-    }    
+        if (heartrateIterator != null) {
+            var hrs = heartrateIterator.next();
+            if(hrs != null && hrs.heartRate != null && hrs.heartRate != Mon.INVALID_HR_SAMPLE) {
+                return hrs.heartRate.format("%d");
+            }
+        }
+
+        return "--";
+    }
 }
