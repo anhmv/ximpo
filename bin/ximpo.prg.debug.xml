@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <pcToLineNum>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoApp.mc" id="3" lineNum="5" pc="268435456" symbol="initialize"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoApp.mc" id="3" lineNum="6" pc="268435460" symbol="initialize"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoApp.mc" id="4" lineNum="10" pc="268435479" symbol="onStart"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoApp.mc" id="5" lineNum="14" pc="268435484" symbol="onStop"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoApp.mc" id="6" lineNum="18" pc="268435489" symbol="getInitialView"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoApp.mc" id="6" lineNum="19" pc="268435493" symbol="getInitialView"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="8" lineNum="10" pc="268435531" symbol="initialize"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="8" lineNum="11" pc="268435535" symbol="initialize"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="9" lineNum="15" pc="268435554" symbol="onLayout"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="9" lineNum="16" pc="268435558" symbol="onLayout"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="10" lineNum="22" pc="268435596" symbol="onShow"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="11" lineNum="26" pc="268435601" symbol="onUpdate"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="11" lineNum="28" pc="268435605" symbol="onUpdate"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="11" lineNum="29" pc="268435622" symbol="onUpdate"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="11" lineNum="30" pc="268435696" symbol="onUpdate"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="11" lineNum="31" pc="268435720" symbol="onUpdate"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="11" lineNum="34" pc="268435734" symbol="onUpdate"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="11" lineNum="36" pc="268435754" symbol="onUpdate"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="11" lineNum="37" pc="268435790" symbol="onUpdate"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="11" lineNum="38" pc="268435870" symbol="onUpdate"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="11" lineNum="40" pc="268435950" symbol="onUpdate"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="11" lineNum="41" pc="268436024" symbol="onUpdate"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="11" lineNum="44" pc="268436110" symbol="onUpdate"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="11" lineNum="45" pc="268436133" symbol="onUpdate"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="11" lineNum="46" pc="268436220" symbol="onUpdate"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="11" lineNum="50" pc="268436324" symbol="onUpdate"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="11" lineNum="51" pc="268436337" symbol="onUpdate"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="11" lineNum="52" pc="268436424" symbol="onUpdate"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="11" lineNum="55" pc="268436508" symbol="onUpdate"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="11" lineNum="56" pc="268436540" symbol="onUpdate"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="11" lineNum="57" pc="268436609" symbol="onUpdate"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="11" lineNum="60" pc="268436675" symbol="onUpdate"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="11" lineNum="61" pc="268436694" symbol="onUpdate"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="11" lineNum="63" pc="268436727" symbol="onUpdate"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="11" lineNum="64" pc="268436780" symbol="onUpdate"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="11" lineNum="65" pc="268436847" symbol="onUpdate"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="11" lineNum="66" pc="268436913" symbol="onUpdate"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="12" lineNum="73" pc="268436980" symbol="onHide"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="13" lineNum="77" pc="268436985" symbol="onExitSleep"/>
+        <entry filename="/Users/anhmv/eclipse-workspace/ximpo/source/ximpoView.mc" id="14" lineNum="81" pc="268436990" symbol="onEnterSleep"/>
+        <entry filename="Rez" id="21" lineNum="15" pc="268437129" symbol="WatchFace"/>
+        <entry filename="Rez" id="21" lineNum="18" pc="268437141" symbol="WatchFace"/>
+        <entry filename="Rez" id="21" lineNum="20" pc="268437322" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry field="true" id="15" symbol="AppName"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="14" symbol="LauncherIcon"/>
+        <entry id="11" method="true" symbol="&lt;globals/ximpoView/&lt;&gt;retrieveHeartrateText&gt;"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="8389347" symbol="color"/>
+        <entry id="12" module="true" symbol="Layouts"/>
+        <entry id="10" object="true" symbol="ximpoView"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="13" module="true" symbol="Menus"/>
+        <entry id="9" object="true" symbol="ximpoApp"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435484" name="state" stackId="1" startPc="268435479"/>
+        <entry endPc="268435489" name="state" stackId="1" startPc="268435484"/>
+        <entry endPc="268435596" name="dc" stackId="1" startPc="268435554"/>
+        <entry endPc="268436979" name="timeString" stackId="3" startPc="268435605"/>
+        <entry endPc="268436979" name="now" stackId="8" startPc="268435605"/>
+        <entry endPc="268436979" name="currentDate" stackId="9" startPc="268435605"/>
+        <entry endPc="268436979" name="date" stackId="11" startPc="268435605"/>
+        <entry endPc="268436979" name="clockTime" stackId="2" startPc="268435605"/>
+        <entry endPc="268436979" name="stepCount" stackId="7" startPc="268435605"/>
+        <entry endPc="268436979" name="heartRate" stackId="6" startPc="268435605"/>
+        <entry endPc="268436979" name="battery" stackId="5" startPc="268435605"/>
+        <entry endPc="268436979" name="month" stackId="10" startPc="268435605"/>
+        <entry endPc="268436979" name="view" stackId="4" startPc="268435605"/>
+        <entry endPc="268436980" name="dc" stackId="1" startPc="268435601"/>
+        <entry endPc="268437119" name="hrs" stackId="2" startPc="268437030"/>
+        <entry endPc="268437128" name="heartrateIterator" stackId="1" startPc="268436999"/>
+        <entry endPc="268437339" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268437141"/>
+        <entry endPc="268437340" name="dc" stackId="1" startPc="268437129"/>
+    </localVars>
+    <annotations/>
+    <dataEntryOffsetMappings>
+        <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+        <dataEntry offset="150" parentId="globals" symbolId="ximpoView" type="class"/>
+        <dataEntry offset="253" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry offset="332" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry offset="371" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry offset="402" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry offset="433" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry offset="472" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry offset="503" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry offset="542" parentId="globals" symbolId="ximpoApp" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" name="initialize" parent="ximpoApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStart" parent="ximpoApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStop" parent="ximpoApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getInitialView" parent="ximpoApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="ximpoView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onLayout" parent="ximpoView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="ximpoView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onUpdate" parent="ximpoView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="ximpoView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onExitSleep" parent="ximpoView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onEnterSleep" parent="ximpoView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" name="&lt;globals/ximpoView/&lt;&gt;retrieveHeartrateText&gt;" parent="ximpoView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="WatchFace" parent="Layouts">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
